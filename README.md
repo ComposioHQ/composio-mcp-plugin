@@ -26,6 +26,7 @@ Beyond single-app actions, the agent can:
 |---|---|
 | `mcp.json` | Registers the Composio MCP server (`connect.composio.dev/mcp`), exposing 7 meta-tools. |
 | `skills/composio-mcp` | Teaches the agent the search → connect → execute workflow and best practices. |
+| `skills/composio-activity-summary` | Generates a cross-app company activity summary (Slack, GitHub, Notion, Linear, Gmail, and more) for a given time period. |
 
 ## Install
 

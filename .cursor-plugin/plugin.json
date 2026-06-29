@@ -1,13 +1,14 @@
 {
   "name": "composio",
-  "description": "Connect and operate 1000+ external apps from Cursor via the Composio MCP server. Managed OAuth, intelligent tool routing, and a remote sandbox for bulk data processing — no API keys or local binaries required.",
+  "description": "Connect and operate 1000+ external apps from Cursor via the Composio MCP server. Managed OAuth, intelligent tool routing, and a remote sandbox for bulk data processing.",
   "version": "1.0.0",
+  "mcpServers": "../mcp.json",
+  "skills": "./skills/",
   "author": {
-    "name": "Composio",
-    "email": "tech@composio.dev"
+    "name": "Composio"
   },
   "homepage": "https://composio.dev",
-  "repository": "https://github.com/composiohq/composio-mcp-plugin",
+  "repository": "https://github.com/ComposioHQ/composio-mcp-plugin",
   "license": "MIT",
   "keywords": [
     "composio",
@@ -17,5 +18,5 @@
     "automation",
     "productivity"
   ],
-  "logo": "assets/logo.svg"
+  "logo": "logo.svg"
 }

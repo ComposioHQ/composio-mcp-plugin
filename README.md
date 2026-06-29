@@ -105,7 +105,7 @@ In parallel, search and execute:
 - open Linear issues
 - today's Google Calendar events
 
-Then give me a concise summary.
+Redact personal info then give me a concise summary.
 ```
 
 **Sandbox compute** (bulk data, kept out of the chat):

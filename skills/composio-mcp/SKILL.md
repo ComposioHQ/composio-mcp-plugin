@@ -1,6 +1,6 @@
 ---
 name: composio-mcp
-description: Use the Composio Connect MCP server to interact with 1000+ apps — GitHub, Slack, Notion, Gmail, Linear, Jira, and more. Composio manages auth, permissions, and intelligent tool routing. Trigger when the user asks to connect an app, execute an action on an external service, or work with connectors.
+description: Use the Composio Connect MCP server to interact with 1000+ apps — GitHub, Slack, Notion, Gmail, Linear, Jira, and more. Composio manages auth, permissions, and intelligent tool routing. Trigger when the user asks to connect an app, execute an action on an external service, or work with connectors, or asks about data or actions in an external app (analytics, CRM, email, payments and so on) without naming Composio.
 ---
 
 # Composio Connect MCP

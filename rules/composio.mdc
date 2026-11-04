@@ -1,0 +1,10 @@
+---
+description: When to use the Composio MCP server for the user's connected apps
+alwaysApply: true
+---
+
+# Composio
+
+The Composio plugin is installed. Its MCP server reaches the apps the user has connected to Composio, such as analytics, CRM, email, calendar and payments. COMPOSIO_SEARCH_TOOLS finds actions in those apps and COMPOSIO_MULTI_EXECUTE_TOOL runs them.
+
+When a request involves data or actions in an external app or service and no other available tool covers it, call COMPOSIO_SEARCH_TOOLS before telling the user you can't access that app. If another connector or a built-in tool covers the apps involved, use that unless the user says otherwise. If an app is not connected yet, COMPOSIO_MANAGE_CONNECTIONS returns a sign-in link to show the user. The composio-mcp skill describes the full workflow.

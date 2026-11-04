@@ -25,6 +25,7 @@ Beyond single-app actions, the agent can:
 | Component | Purpose |
 |---|---|
 | `mcp.json` | Registers the Composio MCP server (`connect.composio.dev/mcp`), exposing 7 meta-tools. |
+| `rules/composio.mdc` | Always-applied rule that tells the agent to check Composio before saying it can't reach an external app. |
 | `skills/composio-mcp` | Teaches the agent the search → connect → execute workflow and best practices. |
 | `skills/composio-activity-summary` | Generates a cross-app company activity summary (Slack, GitHub, Notion, Linear, Gmail, and more) for a given time period. |
 

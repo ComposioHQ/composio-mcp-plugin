@@ -2,6 +2,8 @@
 import json
 import re
 
+import yaml
+
 from tests.config import (
     COMPOSIO_MCP_URL,
     MCP_CONFIG,
@@ -29,6 +31,12 @@ class TestPluginManifest:
 
     def test_mcp_json_is_discoverable(self):
         assert (PLUGIN_ROOT / "mcp.json").exists(), "mcp.json must exist at plugin root for auto-discovery"
+
+    def test_composio_rule_is_always_applied(self):
+        rule = PLUGIN_ROOT / self.manifest["rules"] / "composio.mdc"
+        assert rule.exists(), f"{rule} must exist"
+        frontmatter = yaml.safe_load(rule.read_text().split("---", 2)[1])
+        assert frontmatter.get("alwaysApply") is True, f"{rule} must set alwaysApply: true"
 
     def test_logo_path_exists(self):
         logo = self.manifest.get("logo")

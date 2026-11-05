@@ -1,9 +1,10 @@
 {
   "name": "composio",
   "description": "Connect and operate 1000+ external apps from Cursor via the Composio MCP server. Managed OAuth, intelligent tool routing, and a remote sandbox for bulk data processing.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcpServers": "../mcp.json",
   "skills": "./skills/",
+  "rules": "./rules/",
   "author": {
     "name": "Composio"
   },
